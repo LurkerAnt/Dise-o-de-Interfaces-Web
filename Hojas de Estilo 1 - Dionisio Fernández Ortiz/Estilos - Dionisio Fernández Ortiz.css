@@ -1,0 +1,331 @@
+/*Selecciona todos los elementos con nombre de clase .selector1*/
+
+.selector1{
+    color: purple;
+}
+
+/*Selecciona todos los elementos con el id #selector2*/
+
+#selector2{
+    color: green;
+}
+
+/*Selecciona todos los elementos*/
+
+*{
+    background: white;
+}
+
+/*Selecciona todos los elementos que son parrafos*/
+
+p{
+    background: lightblue;
+}
+
+/*Selecciona todos los elementos que sean h1 y div*/
+
+
+h1,div{
+    color:grey;
+}
+
+/*Selecciona todos los elementos p dentro de div*/
+
+div p{
+    color: palevioletred;
+    background: black;
+}
+
+/*Selecciona todos los elementos p cuyos padres son div*/
+
+div > p{
+    background: grey;
+}
+
+/*Selecciona todos los elementos p que esten localizados justo despues de un div*/
+
+div + p{
+    color:darkgreen;
+    background: white;
+}
+
+/*Selecciona todos los elementos ul que van precedidos de un elemento p*/
+
+p ~ ul{
+    color:darkgoldenrod;
+    
+}
+
+/*Selecciona todos los elementos a con un atibuto target*/
+
+a[target]{
+    background: green;
+}
+
+/*Selecciona todos los elementos a con un atibuto target que sea  "_self*/
+
+a[target=_self]{
+    background: violet;
+}
+
+/*Selecciona todos los elementos con un atributo title que contenga la palabra Imagen*/
+
+
+[title~=Imagen]{
+    border: 5px solid black;
+}
+
+/*Selecciona todos los elementos con un atributo lang cuyo valor empiece por "en"*/
+
+[lang|=en]{
+    background: cyan;
+}
+
+/* selecciona todos los elementos div en los que su class empiece por uno */
+
+div[class^="uno"]{
+    color:cornflowerblue;
+    background: darkorchid;
+}
+
+/* selecciona todos los elementos div en los que su class acabe en prueba */
+
+div[class$="prueba"]{
+    color:wheat;
+    background: brown;
+}
+
+/* selecciona todos los div en los que su clase contenga el caracter z */
+
+div[class*="z"]{
+    color: red;
+    background: green;
+}
+
+/* selecciona el link activo */
+
+a:active{
+    background: brown;
+}
+
+/* Inserta algo despues de el contenido de cada elemento <p> */
+
+p::after{
+    content: " - Final texto ";
+}
+
+/* Inserta algo antes de el contenido de cada elemento <p> */
+
+p::before{
+    content: "Texto - "
+}
+
+/* Selecciona todos los elementos <imput> checkeados */
+
+input:checked{
+    width: 30px;
+    height: 30px;
+}
+
+/* Selecciona todos los elementos <imput> por defecto */
+
+input:default{
+    width: 30px;
+    height: 30px;
+}
+
+/* Selecciona todos los elementos <imput> de tipo texto que estén habilitados */
+
+input[type=text]:enabled{
+    background: yellow;
+}
+
+/* Selecciona todos los elementos <p> que sean el primer hijo de su rama padre */
+
+p:first-child{
+    color:red;
+}
+
+/* Selecciona todas las primeras letras de los elementos <p> */
+
+p::first-letter{
+    font-size: 25px;
+    color: darkviolet;
+}
+
+/* Selecciona todas las primeras lineas de los elementos <p> */
+
+p::first-line{
+    background: green;
+}
+
+/* Selecciona todos los elementos <p> que son el primer hijo de su rama padre */
+
+p:first-of-type{
+    color:rosybrown;
+}
+
+/* Selecciona el elemento imput que tiene focus */
+
+input:focus{
+    background-color: darkgray;
+}
+
+/* cuando pasas el ratón por encima de un elemento <a> hace algo */
+
+a:hover{
+    background-color: darksalmon;
+}
+
+/* Selecciona todos los elementos imput en un determinado rango*/
+
+input:in-range{
+    border:5px solid black;
+}
+
+/*Selecciona todos los imput cuyo valor este en un estado indeterminado*/
+
+input:indeterminate{
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+/* selecciona todos los imputs cuyo valor este en un estado inválido*/
+
+input:invalid{
+    border: 5px solid darkviolet;
+}
+
+/* selecciona todos los elementos <p> cuyo valor de lang sea (es) Español */
+
+p:lang(es){
+    color:red;
+}
+
+/* Selecciona todos los elementos <p> que son el utlimo hijo de su rama padre */
+
+p:last-child{
+    background:blue;
+}
+
+/* Selecciona todos los elementos <p> que son los úlmos elementos <p> dentro de su rama padre */
+
+p:last-of-type{
+    background: black;
+}
+
+/*selecciona todos los links no visitados*/
+
+a:link{
+    background:yellow;
+    
+}
+
+/*selecciona todos los elementos que no son <p>*/
+
+:not(p){
+    font-family: sans-serif;
+}
+
+/*Selecciona todos los elementos <p> que son los segundos hijos de sus padres*/
+
+p:nth-child(2){
+    background-color:blueviolet;
+}
+
+/*Selecciona todos los elementos <p> que son los segundos hijos de sus padres empezando por el final*/
+
+p:nth-last-child(2){
+    background-color: red;
+}
+
+/*Selecciona todos los elementos <p> que sean el segundo elemento <p> de su padre*/
+
+p:nth-of-type(1){
+    background-color: darkgoldenrod;
+}
+
+/*Selecciona todos los elementos <p> que sean el segundo elemento <p> desde  de su padre*/
+
+p:nth-last-of-type(2) {
+    background-color: darkgray;
+}	
+
+/* Selecciona todos los elementos <p> que son el único elemento <p> dentro de su padre*/
+
+p:only-of-type	{
+    background-color: blue;
+}
+
+/*Selecciona todos los elemetos <p> que sean hijos únicos de su padre.*/
+
+p:only-child	{
+    background-color: green;
+}
+
+/*Selecciona todos los elementos imput en los que no requiera ser completado*/
+
+input:optional {
+    background-color: yellow;
+}
+
+/*Selecciona elemntos imput con un valor fuera de un rango específico*/
+
+input:out-of-range { 
+    border: 2px solid red;
+}
+
+/*Selecciona un tipo de elemento que contiene un texto de placeholder*/
+
+::-moz-placeholder {
+    color: red;
+}
+
+/*Selecciona elementos con el atributo "readonly" especificado*/
+
+input:read-only { 
+    background-color: slategrey;
+}
+
+/*Selecciona elementos con el atributo "readonly" NO especificado*/
+
+input:read-write { 
+    background-color:darkturquoise;
+}
+
+/*Selecciona elementos con el atributo "required" especificado*/
+
+input:required { 
+    background-color:darkslategray;
+}
+
+/*Selecciona el elemento raíz del documento*/
+
+:root {
+    background-color: black;
+}
+
+/* Selecciona la porcion de un elemento que esta seleccionado por el usuario. */
+
+::selection {
+    color:cadetblue;
+    background-color:dimgray;
+    
+}
+
+/* Selecciona todos los elementos con un imput valido */
+
+input:valid { 
+    background-color:aliceblue;
+}
+
+/*Selecciona todos los links visitados*/
+
+a:visited { 
+    color:darkturquoise;
+}
+/*Selecciona el elemento que este actualmente activo.*/
+
+:target {
+    border: 2px solid blue;
+    background-color:black;
+}
