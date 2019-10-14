@@ -1,0 +1,5 @@
+Ejercicio de bordes CSS3 y capas
+Vamos a realizar una página web que tenga un encabezado, cuatro capas colocadas dos a dos y debajo un pie de página.
+Deberéis colocarlas en la página usando position:absolute, left y top. 
+En cada una de ellas insertar otra capa a la que aplicaréis los bordes CSS3 vistos en clase 
+(están en el enlace sobre CSS3 que dirige a desarrolloweb)
