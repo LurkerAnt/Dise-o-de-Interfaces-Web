@@ -1,0 +1,29 @@
+body {
+    /*Cambia el color del fondo de la pagina a gris*/
+    background-color: grey;
+    /* Cambia el color de las letras en el body en este caso a negro */
+    color: black;
+}
+
+#par1 {
+    /* En este degradado se utiliza el RGBA para jugar con la opacidad de los colores, yendo desde 0 hasta el 1 */
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    color: indigo;
+    /*Esto hace que el texto aparezca en negrita. Con esta función solo se puede modificar el estilo.*/
+    text-decoration-style: solid;
+}
+
+#par2 {
+    /* En este degradado se le introduce un ángulo desde el que se va a realizar el degradado. */
+    background-image: linear-gradient(-145deg, green, grey);
+    /*Hace que el texto se subraye, con text-decoration tambien se puede elegir el color*/
+    text-decoration: underline;
+}
+
+#par3 {
+    /* En este degradado hace que el fondo sea de los colores de arcoiris. */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    /* En este caso hace que aparezca tachado el texto*/
+    text-decoration: line-through;
+
+}
