@@ -1,0 +1,59 @@
+{
+    "icon": "imagenes/Pro/chapman%20symbol.png",
+    "title": "Chapman Guitars DAW",
+    "description": "Tienda de guitarras de marca Chapman Guitars",
+    "keywords": "guitars, chapman, chapman guitars, sell, shop, custom made",
+    "content": {
+        "logo": "imagenes/Pro/chapman%20symbol.png",
+        "menu": [
+            "Guitarras",
+            "Artistas"
+        ],
+        "slider": [
+            "imagenes/WebBanners_BritishStandard_D_01.jpg",
+            "imagenes/WebBanners_ML2_GuitaroftheYear_Desktop_01.png"
+        ],
+        "products": [
+            {
+                "name": "Standard Series",
+                "description": "Mid range prices afordable for everyone. Indonesian made.",
+                "img": "imagenes/ML2-MOD-WHT-02.jpg"
+            }, 
+            {
+                "name": "Pro Series",
+                "description": "Created with the community, for those who love quality. Korean made.",
+                "img": "imagenes/ML1-MOD-LNR-02.jpg"
+            },
+            {
+                "name": "Signature Series",
+                "description": "Created to the specifications of our signed artists.",
+                "img": "imagenes/ML3-BEA-SMO-02.jpg"
+                
+            },
+            {
+                "name": "British Series",
+                "description": "Top of the line British made guitars.",
+                "img": "imagenes/WebBanners_BritishStandard_ML1_D_01.jpg"
+            }
+        ],
+        "topSells": {
+            "title": "Top Ventas",
+            "sells":[
+                "ML3 BEA",
+                "ML2 MODERN",
+                "ML3 PRO MODERN",
+                "ML1 MODERN VADAR" 
+            ]
+        },
+        "footer": {
+            "info": [
+                "CONTACTO",
+                "SOCIAL MEDIA",
+                "WORK WITH US"
+            ],
+            "disclaimer": "Dioni did this pls no copy. All rights reserved."
+        }
+        
+    }
+    
+}

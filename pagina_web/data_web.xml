@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-data>
+    <icon>imagenes/Pro/chapman%20symbol.png</icon>
+    <title>Chapman Guitars DAW</title>
+    <description>Tienda de guitarras de marca Chapman Guitars</description>
+    <keywords>guitars, chapman, chapman guitars, sell, shop, custom made</keywords>
+    <content>
+        <logo>imagenes/Pro/chapman%20symbol.png</logo>
+        <menu>
+            <value>Guitarras</value>
+            <value>Artistas</value>
+        </menu>
+        <slider>
+            <value>imagenes/WebBanners_BritishStandard_D_01.jpg</value>
+            <value>imagenes/WebBanners_ML2_GuitaroftheYear_Desktop_01.png</value>
+        </slider>
+        <products>
+            <product>
+                <name>Standard Series</name>
+                <description>Mid range prices afordable for everyone. Indonesian made.</description>
+                <img>imagenes/ML2-MOD-WHT-02.jpg</img>
+            </product>
+            <product>
+                <name>Pro Series</name>
+                <description>Created with the community, for those who love quality. Korean made.</description>
+                <img>imagenes/ML1-MOD-LNR-02.jpg</img>
+            </product>
+            <product>
+                <name>Signature Series</name>
+                <description>Created to the specifications of our signed artists.</description>
+                <img>imagenes/ML3-BEA-SMO-02.jpg</img>
+            </product>
+            <product>
+                <name>British Series</name>
+                <description>Top of the line British made guitars.</description>
+                <img>imagenes/WebBanners_BritishStandard_ML1_D_01.jpg</img>
+            </product>
+        </products>
+        <topSells>
+           <title>Top Ventas</title>
+            <sells>
+                <value>ML3 BEA</value>
+                <value>ML2 MODERN</value>
+                <value>ML3 PRO MODERN</value>
+                <value>ML1 MODERN VADAR</value>
+            </sells>
+        </topSells>
+        <footer>
+            <info>
+                <value>CONTACTO</value>
+                <value>SOCIAL MEDIA</value>
+                <value>WORK WITH US</value>
+            </info>
+            <disclaimer>Dioni did this pls no copy. All rights reserved.</disclaimer>
+        </footer>
+    </content>
+</web-data>
