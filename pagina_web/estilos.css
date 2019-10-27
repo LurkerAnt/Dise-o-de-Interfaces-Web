@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: black;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+#btn-menu {
+    display: none;
+}
+
+
+header label {
+    display: none;
+    width: 104px;
+    height: 56px;
+    padding: 5px;
+}
+
+.menu {
+    display: block;
+    justify-content: center;
+}
+
+.menu ul {
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li a:hover {
+    cursor: pointer;
+    color: dimgrey;
+    text-decoration: underline;
+}
+
+.menu li a {
+    margin: 0;
+    display: block;
+    padding: 0px 25px;
+    color: white;
+    text-decoration: none;
+    height: auto;
+    text-align: center;
+    line-height: 56px;
+    font-size-adjust: auto;
+    height: 56px;
+}
+
+
+
+@media (max-width:768px) {
+
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background: black;
+        width: 50%;
+        transition: all;
+        margin-left: -70%
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+    }
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: cambio 10s infinite alternate;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0
+    }
+    50% {
+        margin-left: 0
+    }
+
+    55% {
+        margin-left: -100%
+    }
+    100% {
+        margin-left: -100%
+    }
+}
+
+main {
+    color: white;
+}
+
+.cuerpo {
+    padding-top: 20px;
+
+}
+
+.container {
+    margin-left: 5%;
+    width: 60%;
+    float: left;
+    border-top: 2px solid grey;
+}
+
+.container div {
+    padding: 20px;
+}
+.container:last-child{
+    border-bottom: 2px solid dimgrey;
+}
+h2 a {
+    text-decoration: underline;
+    color: white;
+}
+h2 a:hover{
+    color: dimgray;
+}
+
+.sidelist {
+    float: right;
+    width: 20%;
+    border: 2px solid grey;
+    margin-right: 5%;
+}
+
+ul.ventas {
+    text-align: justify;
+    list-style: none;
+}
+
+.sideh2 {
+    border-bottom: 2px solid grey;
+    padding: 0px 0px 5px 15px;
+}
+
+ul.ventas li {
+    display: block;
+    padding: 15px 5px;
+
+}
+
+ul.ventas a {
+    text-decoration: none;
+    color: white;
+
+}
+
+ul.ventas a:hover {
+    text-decoration: underline;
+    color: dimgray;
+}
+
+
+@media (max-width:978px) {
+    .sidelist {
+        display: none;
+    }
+    .container {
+        width: 90%;
+        margin: 5%;
+    }
+    
+}
+
+footer{
+    border-top: 2px solid grey;
+    
+    line-height: 1.5;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    text-decoration:none;
+}
+footer a {
+    text-decoration:none;
+    color:white;
+    border :none;
+    padding:2px;
+}
+footer a:hover{
+    color: dimgray;
+    text-decoration: underline;
+}
+
+
+
+
+
+
