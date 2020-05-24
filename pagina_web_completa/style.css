@@ -1,89 +1,176 @@
-body {
-	background:#e6e6e6;
+* {
+	margin:0px;
+	padding:0px;	
 }
- 
-header {
-	width:90%;
-	max-width:1000px;
+
+body{
+	background-image: url("../pagina_web_completa/imagenes/Cat-Background-Picture.jpeg");
+
+}
+
+/* CSS MENU */
+
+#header {
+	float: left;
 	margin:auto;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: black;
+	border-bottom: 1px solid blanchedalmond;
+	color: lightpink;
+	list-style: none;
+	/*con vW la letra se vuelve responsive a la medida que quieras.*/
+	font-size: 1.1vw;
 }
- 
-nav {
-	background:#528fd5;
-	margin-top:20px;
+
+
+#listaCompleta {
+	width:100%; /*Le establecemos un ancho*/
+	margin:0 auto; /*Centramos automaticamente*/
+	list-style: none;
+}
+
+#listaCompleta > li {
+	float: left;
 	position: relative;
+	
 }
- 
-nav ul {
-	list-style:none;
-	padding:0;
-	margin:0;
-	overflow:hidden;
-}
- 
-nav > ul > li {
-	float:left;
-}
- 
-nav ul li a {
+
+#listaCompleta li a {
+	background-color:#000;
+	color: lightpink;
 	text-decoration:none;
-	color:#fff;
+	padding:10px 12px;
 	display:block;
-	padding:10px 20px;
 }
- 
-nav ul li a:hover {
-	background:#3669a3;
+
+#listaCompleta li a:hover {
+	background-color:#434343;
 }
- 
-nav > ul > li:hover div {
-	display:table;
-}
- 
-/*Submenu*/
-nav ul li div {
-	width:1000px;
-	position: absolute;
-	left:0;
-	background:#ccc;
-	box-sizing:border-box;
+
+#listaCompleta li ul {
 	display:none;
+	position:absolute;
+	min-width:140px;
 }
- 
-nav ul li div ul{
-	width:20%;
-	display:table-cell;
-	border-right:1px solid rgba(255,255,255,.5);
-	box-sizing:border-box;
+
+#listaCompleta li:hover > ul {
+	display:block;
 }
- 
-nav ul li div ul:last-child {
-	border:none;
+
+#listaCompleta li ul li {
+	position:relative;
 }
- 
-nav ul li div ul .titulo {
-	background:#000;
-	color:#fff;
+
+#listaCompleta li ul li ul {
+	right:-140px;
+	top:0px;
 }
- 
-nav ul li div ul .titulo a {
-	color:#fff;
-	padding:10px 20px;
+
+#inicio a{
+	list-style: none;
+	float: right;
+	position: relative;
+	background-color:#000;
+	color:lightpink;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+	font-size: 1.1vw;
 }
- 
-.titulo.azul {background:#3498db;}
-.titulo.verde{background:#27ae60;}
-.titulo.naranja {background:#e67e22;}
-.titulo.rojo {background:#c0392b; color:#000;}
- 
-nav ul li div ul .titulo a:hover {
-	background:none;
+
+#menuLateral{
+	float: left;
+	position: inherit;
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
+	background-color: black;
+	border: 2px  lightpink;
+	border-style: groove;
+	border-radius: 10px;
+	text-align: center;
 }
- 
-nav ul li div ul li a {
-	color:#000;
+
+
+#tituloMenuLateral, #productoUnoLateral,#productoDosLateral,#productoTresLateral,#productoCuatroLateral{
+	width: 100%;
+	margin-top: 10px;
+	color:lightpink;	
+	border-bottom: 2px solid lightpink;
+	float: left;
+	text-align: left;
 }
- 
-nav ul li div ul li a:hover {
-	color:#fff;
+
+#menuLateral h3>a, h2>a{
+	text-decoration: none;
+	color: lightpink;
+	padding-left: 5%;
+}
+
+#imgProducto1{
+	max-width: 30%;
+	height: inherit;
+	float: left;
+	margin: 2%;
+}
+
+#textoProducto1{
+	
+	margin: 2%;
+	text-align: justify;
+}
+
+
+/*CARRUSEL*/
+
+#carrusel{
+	float: right;
+	position: inherit;
+	width: 58%;
+	margin-top: 2%;
+	margin-right: 3%;
+	background-color:lightpink;
+	height: 60%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: 100%;
+}
+  figure { 
+  margin: 0; background: #101010;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; height: auto;
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: 100%;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
 }
