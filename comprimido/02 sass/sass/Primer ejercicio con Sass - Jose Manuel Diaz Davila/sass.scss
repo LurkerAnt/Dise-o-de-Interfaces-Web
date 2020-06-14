@@ -1,0 +1,15 @@
+
+$bgcolor: #ACFC47;
+$textcolor: #FC5047;
+$fontsize: 18px;
+
+.parrafo1 {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+.parrafo2:hover {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}

@@ -1,0 +1,197 @@
+@font-face {
+    font-family: fuente;
+    src: url(CloisterBlack.ttf);
+}
+
+body {
+    background-color: rgb(49, 201, 143);
+    width: 100%;
+}
+
+
+#header{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: rgb(49, 201, 143);
+}
+#header img{
+    width: 10%;
+}
+
+/*MENU*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    font-size: 130%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #78df8f;
+    color: black;
+}
+
+.active {
+    border-right: solid 2px white;
+    background-color: #F21B0D;
+}
+
+/*FOOTER*/
+footer {
+    position: absolute;
+    width: 100%;
+    background: #369908;    
+}
+
+footer section, .texto_footer p {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+footer section img{
+    width: 2%;
+}
+
+
+
+
+
+
+/*columnas y destacado*/
+#general{
+    width: 100%;
+    display: flex;
+    
+}
+#menu_lateral{
+    width: 25%;
+    margin-right: 2%;
+    background: #1aabcf;
+    color: rgb(10, 3, 26);
+    
+    
+    border: 2px solid black;
+}
+
+#news{
+    width: 75%;
+}
+
+img{
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    
+}
+p{
+    padding: 6px;
+    color: #CFDBE5;
+}
+table{
+    padding-left: 10px;
+    margin-top:0;
+}
+#fotoportada{
+    text-align: center;
+    margin: auto;
+    widows: 100%; 
+    
+}
+
+.titulo1{
+    color:#CFDBE5;
+    padding-left: 50px;
+    text-decoration: underline;
+    font-family:fuente;
+}
+.titulo2{
+    font-size: 25px;
+    padding-left: 25px;
+    font-family: fuente;
+}
+#imagen{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.columna1{
+    font-size: 18px;
+    color: black;
+    column-count: 1;
+    padding: 15px;
+    font-family: fuente;
+
+}
+#boton1{
+    color:black;
+    background:#E3DE31; 
+    height: 25px;
+    
+}
+.columna2{
+    font-size: 18px;
+    color: black;
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-color: #499CEC;
+    padding: 15px;
+    font-family: fuente;
+
+}
+
+#boton2{
+    color:black;
+    background:#E3DE31; 
+    height: 25px;
+    margin-left: 150px;
+}
+
+.columna3{
+    font-size: 18px;
+    color: black;
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-color: #499CEC;
+    padding: 15px;
+    font-family: fuente;
+
+}
+#boton3{
+    color:black;
+    background:#E3DE31; 
+    height: 25px;
+     margin-left: 150px;
+    
+}
+boton{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

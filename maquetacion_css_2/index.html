@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NewsPaper</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+    <div id="header">
+        <a href="index.html"><img id="onion_img" src="../maquetacion_css_2/imagenes/onion-logo.png" alt="" ></a>
+        
+    </div>
+
+
+    <div id="menu">
+        <ul>
+            <li><a href="">Sucesos</a></li>
+            <li><a href="">Economia</a></li>
+            <li><a href="">Tecnologia</a></li>
+            <li><a href="">Politica</a></li>
+            <li><a href="">Deportes</a></li>
+
+
+        </ul>
+    </div>
+
+
+    <div id="general">
+        <section id="menu_lateral">
+            <h2 class="titulo_menu_lateral">Destacados</h2>
+            <table id="tabla_noticias_destacas">
+                <tr>
+                    <td><img id="" src="imagenes/timburton.jpeg" width="150px" height="130px"></td>
+                    <td>
+                        <p id="pimg"><strong>Tim Burton se pronuncia</strong><br>"A mi me preguntan, ¿Eres más de culos o de tetas? Y yo les digo. ¿Esque hay que elegir?"</p>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p id="pimg"><strong>Trump huele a rancio. </strong> <br> Nuevas declaraciones de Melania trump.</p>
+                    </td>
+                    <td>
+                        <p id="pimg"><img id="" src="imagenes/melania.jpg" width="150px" height="130px">
+                </tr>
+
+                <tr>
+                    <td><img id="" src="imagenes/dioni.jpg" width="150px" height="130px"></td>
+                    <td>
+                        <p id="pimg"><strong>Dioni ha aprobado Java</strong> <br> Se le han alineado los planetas a este viejoven programmer wannabe.</p>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p id="pimg"><strong>Imagenes de la nueva PS5.</strong> <br> Parece un router con mandos. </p>
+                    </td>
+                    <td>
+                        <p id="pimg"><img id="" src="imagenes/ps5.jpeg" width="150px" height="130px">
+                </tr>
+            </table>
+        </section>
+
+        <section id="principal">
+            <h1 class="titulo2">'El ultimo adiós, del ultimo gran héroe'</h1>
+
+            <div id="noticias">
+                <div id="fotoportada"><img src="imagenes/chiquito.jpg" width="50%" height="50%">
+                </div>
+                <h2>Epitafio al heroe de la comedia:</h2>
+
+                <button id="boton1" onclick="cambiar1()">CAMBIAR A UNA COLUMNA</button>
+                <button id="boton2" onclick="cambiar2()">CAMBIAR A DOS COLUMNAS</button>
+                <button id="boton3" onclick="cambiar3()">CAMBIAR A TRES COLUMNAS</button>
+                <div class="column" id="column"></div>
+                <p id=columna class="columna3">
+
+                    Lorem fistrum tiene musho peligro se calle ustée pecador por la gloria de mi madre me cago en tus muelas no te digo trigo por no llamarte Rodrigor jarl. A wan te voy a borrar el cerito por la gloria de mi madre diodenoo te va a hasé pupitaa te voy a borrar el cerito llevame al sircoo. Amatomaa a wan torpedo mamaar te va a hasé pupitaa condemor. Qué dise usteer mamaar condemor por la gloria de mi madre benemeritaar va usté muy cargadoo quietooor. Jarl me cago en tus muelas hasta luego Lucas benemeritaar. Fistro ese que llega pupita a peich está la cosa muy malar mamaar a peich está la cosa muy malar. Diodenoo no puedor sexuarl pupita diodenoo amatomaa papaar papaar al ataquerl diodeno fistro. Diodeno te va a hasé pupitaa fistro al ataquerl a peich apetecan ese que llega al ataquerl me cago en tus muelas benemeritaar te va a hasé pupitaa.
+
+                    Está la cosa muy malar torpedo benemeritaar te voy a borrar el cerito ahorarr amatomaa qué dise usteer. Por la gloria de mi madre llevame al sircoo diodeno condemor me cago en tus muelas qué dise usteer se calle ustée benemeritaar. Quietooor al ataquerl papaar papaar caballo blanco caballo negroorl de la pradera papaar papaar mamaar ahorarr por la gloria de mi madre fistro la caidita. Ese pedazo de pupita ese hombree a gramenawer diodeno torpedo benemeritaar amatomaa mamaar se calle ustée. Ese pedazo de pecador tiene musho peligro ahorarr.                    <br><br>
+
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!--Js para el control de las columnas-->
+    <script>
+        function cambiar1() {
+            document.getElementById("columna").className = "columna1";
+
+        }
+
+        function cambiar2() {
+            document.getElementById("columna").className = "columna2";
+
+        }
+
+        function cambiar3() {
+            document.getElementById("columna").className = "columna3";
+
+        }
+    </script>
+
+
+    <footer>
+        <div class="texto_footer">
+            <p>All rights reserved Camdemorer winisimi. Hecho por Dionisio Fernández</p>
+        </div>
+
+
+        <section class="social">
+            <img src="imagenes/twitter.jpg" width="10%">
+            <img src="imagenes/facebook.jpg" width="9.5%">
+            <img src="imagenes/snapchat.jpg" width="10%">
+        </section>
+
+    </footer>
+
+
+</body></html>

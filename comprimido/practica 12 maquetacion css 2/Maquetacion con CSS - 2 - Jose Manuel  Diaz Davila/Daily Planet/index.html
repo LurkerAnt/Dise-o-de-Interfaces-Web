@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>- Daily Planet -</title>
+    <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+
+
+<body>
+
+
+    <center>
+        <div class="logo"><img src="fotos/daily-planet-logo.png" height="100%" width="85%"></div>
+    </center>
+
+
+    <div>
+        <ul>
+            <li><a href="">Sucesos</a></li>
+            <li><a href="">Economia</a></li>
+            <li><a href="">Tecnologia</a></li>
+            <li><a href="">Politica</a></li>
+            <li><a href="">Deportes</a></li>
+
+            <li style="float:right"><a class="active" href="index.html">INICIO</a></li>
+
+        </ul>
+    </div>
+
+
+    <div id="general">
+        <section id="destacados">
+            <h2 class="titulo1">Noticias de última hora</h2>
+            <table id="dest">
+                <tr>
+                    <td><img id="" src="fotos/dead.jpg" width="150px" height="130px"></td>
+                    <td>
+                        <p id="pimg"><strong>Superman ha muerto</strong><br>Hoy es un dia triste para todos los ciudadanos de Metropolis.</p>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p id="pimg"><strong>Lois Lane acude al entieero de Superman</strong> <br> </p>
+                    </td>
+                    <td>
+                        <p id="pimg"><img id="" src="fotos/250px-LoisLane-1.png" width="150px" height="130px">
+                </tr>
+
+                <tr>
+                    <td><img id="" src="fotos/descarga%20(2).jpg" width="150px" height="130px"></td>
+                    <td>
+                        <p id="pimg"><strong>'Lex Luthor ¿Presidente?'</strong> El multimillonario Lex Luthor se presenta para las eleciones a la presidencia.</p>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p id="pimg"><strong>¿Batman o Superman?</strong> <br> Encuesta </p>
+                    </td>
+                    <td>
+                        <p id="pimg"><img id="" src="fotos/descarga%20(3).jpg" width="150px" height="130px">
+                </tr>
+            </table>
+        </section>
+
+        <section id="news">
+            <h1 class="titulo2">'El ultimo adiós, del ultimo gran héroe'</h1>
+
+            <div id="noticias">
+                <div id="fotoportada"><img src="fotos/doomsday_01.jpg" width="50%" height="50%">
+                </div>
+                <h2>A los Ciudadanos de Metrópolis:</h2>
+
+                <button id="boton1" onclick="cambiar1()">CAMBIAR A UNA COLUMNA</button>
+                <button id="boton2" onclick="cambiar2()">CAMBIAR A DOS COLUMNAS</button>
+                <button id="boton3" onclick="cambiar3()">CAMBIAR A TRES COLUMNAS</button>
+                <div class="column" id="column"></div>
+                <p id=columna class="columna3">
+
+                    Ustedes me han recibido en su ciudad y me permitieron hacerla mi hogar. Estaré siempre agradecido por ello. Por lo cual, no puedo irme sin decir adiós. Este periódico me ha hecho algo que ustedes piensan que soy -un ejemplo, un símbolo, un "héroe". Pero la verdad es, yo soy simplemente uno de ustedes. La única diferencia es que mis días en las sombras y las noches en las calles me han permitido ver aquello que ustedes han perdido de vista -el bien en cada uno de ustedes.
+
+                    He visto gente ordinaria hacer cosas extraordinarias. Les he visto ayudarse mutuamente cuando han estado caídos. Les he visto mantenerse en pie juntos cuando las circunstancias son duras. Y he visto los actos más pequeños hacer los grandes cambios. Si he hecho algo bien, yo espero que les halla ayudado a comprender que una persona puede hacer la diferencia en la vida de otros -que Metrópolis no necesita un héroe. Tengan fe en ustedes mismos, y encontrarán esperanza en cada otro.
+
+                    Recuerden, no es la máscara la que hace al héroe. Son las decisiones que hacemos y el deseo de hacer lo que esta bien. He visto ese deseo en todos ustedes. Ello me inspira a prometer que haré todo en mi poder para proteger esta ciudad -sin embargo, no puedo prometer que estaré cerca por siempre. Un día, puede haber una pelea que no pueda ganar.
+
+                    Pero si ese día llega, por favor, continúen luchando sin mí para hacer el mundo un mejor lugar. Sean los héroes que sé que son.<br><br>
+                    <br><br>
+
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function cambiar1() {
+            document.getElementById("columna").className = "columna1";
+
+        }
+
+        function cambiar2() {
+            document.getElementById("columna").className = "columna2";
+
+        }
+
+        function cambiar3() {
+            document.getElementById("columna").className = "columna3";
+
+        }
+    </script>
+
+
+    <footer>
+        <div class="texto_footer">
+
+            <p>Hecho por: Jose Manuel Diaz Davila</p>
+        </div>
+
+
+        <section class="social">
+            <img src="fotos/facebook.jpg" width="10%">
+            <img src="fotos/snapchat.jpg" width="9.5%">
+            <img src="fotos/twitter.jpg" width="10%">
+        </section>
+
+    </footer>
+
+
+</body></html>

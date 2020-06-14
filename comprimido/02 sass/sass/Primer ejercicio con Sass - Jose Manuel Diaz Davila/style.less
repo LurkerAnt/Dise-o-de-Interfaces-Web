@@ -1,0 +1,15 @@
+
+.rounded-corners (@color: white, @fondo: blue, @tipo: italic) {
+    color: @color;
+    background: @fondo;
+    font-style: @tipo
+}
+
+.parrafo1 {
+    .rounded-corners;
+}
+
+.parrafo2:hover {
+    .rounded-corners;
+
+}

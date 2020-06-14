@@ -1,0 +1,27 @@
+/*
+Resulting file tree will appear as follows:
++ bower_components/
+|--- bourbon/app/assets/stylesheets/_bourbon.scss
++ css/
+|--- app.css
+|--- app.css.map
++ scss/
+|--- app.scss
+*/
+
+/* REMOVE comments from json file before using this template */
+{
+    /* disable compiling other files that aren't the "main" file */
+    "sass.enabled": false,
+    "path": {
+        "scss/app.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": true,
+                "outputStyle": "nested"
+            }
+        }
+    }
+}

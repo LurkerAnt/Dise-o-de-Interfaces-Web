@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <style>
+        div>div {
+            padding: 10px 40px 10px 40px;
+
+        }
+
+        img {
+            margin: 0px 30px 0px 30px;
+        }
+
+        .footer {
+            margin: auto;
+            background-color: green;
+            text-align: center;
+        }
+
+        .titulo {
+            text-align: center;
+            background-color: green;
+
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Diseño con Bootstrap 1</title>
+    <meta name="viemport" content="widht; user-scalable=no, initial-scale=1; maximun scale=1, minimun-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Siguiendo el manual de librosweb y utilizando la página diseñada en el ejercicio anterior, incluir elementos tipográficos (títulos, textos, direcciones, listas), elementos CSS (tablas, imágenes)  Pensar la web de manera que contenga todo lo propuesto anteriormente de manera que manejéis el mayor número de elementos BootStrap posibles. -->
+
+    <div class="row titulo">
+        <div class="col-md-12">
+            <h2>Diseño con Bootstrap 1</h2>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:10px;">
+        <div class="col-md-10 col-md-offset-1">
+
+            <!-- Cabecera -->
+            <div class="col-md-5 ">
+                <h1>h1. Bootstrap heading</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at elit ante. Suspendisse in cursus quam. Nulla sit amet dapibus nibh. Vestibulum rutrum elit mauris, ut bibendum velit interdum ut. Vestibulum massa dolor, ultrices id accumsan ac, cursus ut libero. Nunc imperdiet risus neque, eu egestas nulla interdum id. Curabitur finibus ipsum ac massa pulvinar, nec commodo nisl dictum. <br> </p>
+
+                <!-- Lista -->
+                <dl class="dl-horizontal">
+                    <dt>Description lists</dt>
+                    <dd>A description list is perfect for defining terms.</dd>
+                    <dt>Euismod</dt>
+                    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                    <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                    <dt>Malesuada porta</dt>
+                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                    <dt>Felis euismod semper eget lacinia</dt>
+                    <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+                </dl>
+            </div>
+
+            <!-- Formulario -->
+            <div class="col-md-5 col-md-offset-1">
+                <h2>Contacta con nosotros</h2>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="ejemplo_email_1">Email</label>
+                        <input type="email" class="form-control" id="ejemplo_email_1" placeholder="Introduce tu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="ejemplo_password_1">Contraseña</label>
+                        <input type="password" class="form-control" id="ejemplo_password_1" placeholder="Contraseña">
+                    </div>
+
+                    <!-- Botones -->
+                    <div class="form-group">
+                        <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
+                        <input type="file" id="ejemplo_archivo_1">
+                        <p class="help-block">Ejemplo de texto de ayuda.</p>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Activa esta casilla
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default" style="color:blue;">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Pozo-->
+            <div class="col-md-11 col-md-offset-1">
+
+                <div class="well" style="text-align: center; color: blueviolet">¡Este texto está dentro de un "pozo" y por eso parece que está hundido!</div>
+
+            </div>
+
+            <!-- Barras de progreso-->
+            <div class="col-md-11 col-md-offset-1">
+
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                        <span class="sr-only">40% completado (éxito)</span>
+                    </div>
+                </div>
+
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                        <span class="sr-only">20% completado</span>
+                    </div>
+                </div>
+
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                        <span class="sr-only">60% completado (aviso)</span>
+                    </div>
+                </div>
+
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                        <span class="sr-only">100% completado (peligro / error)</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Imageness -->
+            <div class="col-md-11 col-md-offset-1">
+
+                <img src="fotos/circulo.jpeg" width="270px;" height="170px;" class="img-rounded">
+                <img src="fotos/luna.jpg" width="250px;" height="250px;" class="img-circle">
+                <img src="fotos/cuadrado.png" width="270px;" height="170px;" class="img-thumbnail">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row footer">
+        <div class="col-md-12 direccion">
+
+            <!-- Direcciones-->
+            <address>
+                <strong>Diseño</strong><br>
+                Con<br>
+                Bootstrap<br>
+                1
+            </address>
+
+            <address>
+                <strong>Nombre Apellido</strong><br>
+                <a href="mailto:#">nombre.apellido@ejemplo.com</a>
+            </address>
+        </div>
+    </div>
+</body>
+</html>

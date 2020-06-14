@@ -1,0 +1,51 @@
+body {
+    background: black;
+}
+
+.arriba {
+    background-color: blueviolet;
+    margin-top: -20px;
+    height: 70px;
+}
+
+.abajo {
+    background-color: blueviolet;
+    margin-bottom: -25px;
+    height: 70px;
+}
+
+.izquierda {
+    margin-top: 20px;
+}
+
+#onepiece {
+    float: right;
+}
+
+#cityhunter{
+    float: right;
+}
+
+img{
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #000000; 
+}
+
+
+
+p {
+    font-size: 30px;
+    color: firebrick;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    color: floralwhite;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+#pie {
+    background-color: rebeccapurple;
+}

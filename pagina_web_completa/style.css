@@ -94,7 +94,7 @@ body{
 }
 
 
-#tituloMenuLateral, #productoUnoLateral,#productoDosLateral,#productoTresLateral,#productoCuatroLateral{
+#tituloMenuLateral, #productoUnoLateral,#productoDosLateral,#productoTresLateral,#productoCuatroLateral, #catinfo{
 	width: 100%;
 	margin-top: 10px;
 	color:lightpink;	
@@ -109,14 +109,14 @@ body{
 	padding-left: 5%;
 }
 
-#imgProducto1{
+#imgProducto{
 	max-width: 30%;
 	height: inherit;
 	float: left;
 	margin: 2%;
 }
 
-#textoProducto1{
+#textoProducto{
 	
 	margin: 2%;
 	text-align: justify;
@@ -173,4 +173,40 @@ figure.slider figure figcaption {
   background: rgba(0,0,0,0.4);
   color: #fff; width: 100%;
   font-size: 2rem; padding: .6rem; 
+}
+
+
+/* main_cat_info */
+
+#main_cat_info{
+	float: right;
+	position: inherit;
+	width: 58%;
+	margin-top: 2%;
+	margin-right: 3%;
+	height: 60%;
+	background-color: black;
+	border: 2px  lightpink;
+	border-style: groove;
+	border-radius: 10px;
+}
+
+#main_cat_info #cat_image{
+width: 98%;
+float: left;
+margin-left:1%;
+margin-right: auto;
+margin-top: 0.5%;
+padding-bottom: 0.5%;
+}
+
+#main_cat_info #catname,#catinfo>h3{
+	width: 100%;
+	margin-top: 10px;
+	color:lightpink;	
+	border-bottom: 2px solid lightpink;
+	float: left;
+	text-align: left;
+	padding: 2%;
+	
 }

@@ -1,0 +1,43 @@
+.container {
+
+    background-color: #3C3D3E;
+}
+
+.jumbotron {
+    background-color: black;
+}
+
+h1 {
+    background-color: darkgray;
+}
+
+h2 {
+    color: red;
+}
+
+.div1 {
+    background-color: darkgray;
+}
+
+
+.div5 {
+    text-align: right;
+    color: lightgray;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-size: 22px;
+}
+
+p2 {
+    color: darkred;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+
+    background-color: red;
+}
