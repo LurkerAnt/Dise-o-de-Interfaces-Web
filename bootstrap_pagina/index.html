@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <style>
+    </style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio Bootstrap 4 - Vladcourt Miniatures</title>
+    <meta name="viemport" content="widht; user-scalable=no, initial-scale=1; maximun scale=1, minimun-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+
+<body>
+
+    <!--Adaptar una página web hechas en temas anteriores para hacerla web responsive. Añadir botones, menús y otros componentes. Incluir un carrusel usando las clases Bootstrap y algún otro elemento JS como por ejemplo las pestañas (usar como referencia este enlace) Bootstrap 4.-->
+
+
+    <!-- jumbotron-->
+    <div class="jumbotron text-center" style="margin-bottom:0">
+       <a href="index.html"><img src="imagenes/logo.png" height="20%" width="30%"></a> 
+    </div>
+
+
+    <!-- Navegador-->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="div1">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="personajesPrincipales.html">Personajes Principales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lastOfUs.html">Last of Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lastOfUs2.html">Last of Us: Part II</a>
+                </li>
+            </ul>
+        </div>
+
+        <li class="contactanos">
+            <a href="contactanos.html">Contactanos</a>
+        </li>
+    </nav>
+
+
+
+
+
+    <!-- contenedor-->
+    <div class="container" style="margin-top:30px">
+
+
+        <br>
+        <marquee direction="up" scrolldelay="500">
+            <p style="color: red">Lorem fistrum caballo blanco caballo negroorl apetecan caballo blanco caballo negroorl ese hombree ese pedazo de ahorarr me cago en tus muelas amatomaa pecador pupita. Por la gloria de mi madre torpedo te voy a borrar el cerito la caidita pupita a wan no te digo trigo por no llamarte Rodrigor amatomaa. Está la cosa muy malar no puedor pecador a wan me cago en tus muelas a peich jarl de la pradera diodeno a wan. Ahorarr está la cosa muy malar al ataquerl a wan se calle ustée la caidita me cago en tus muelas diodeno. A peich diodeno quietooor no puedor te va a hasé pupitaa pupita diodenoo qué dise usteer quietooor al ataquerl. Fistro pecador jarl hasta luego Lucas a wan qué dise usteer ese hombree va usté muy cargadoo papaar papaar benemeritaar. Diodenoo la caidita torpedo se calle ustée a peich no puedor diodenoo.</p>
+        </marquee>
+        <br>
+
+
+
+
+        <br>
+        
+
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item"><br><br><br>
+                        <p>Learn more about Last of Us.</p>
+                        <a class="nav-link active" href="lasrOfUs.html" style="text-align: center">Last of Us</a><br>
+                        <p>Learn more about Last of Us - Part II.</p>
+                        <a class="nav-link active" href="lastOfUs2.html" style="text-align: center">Last of Us - Part II</a>
+                    </li>
+                </ul>
+                <hr class="d-sm-none">
+            </div>
+            <div class="col-sm-8">
+                <br>
+
+                <!--carousel-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="imagenes/portaitLOU.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagenes/Joel_elieLOU.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagenes/LOU2_calm.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagenes/LOU2_fight.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagenes/ellie_woods.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <br> <br>
+                <br>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Footer-->
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <p2>Dionisio Fernandez</p2>
+
+        <section class="social">
+
+            <img src="imagenes/twitter.jpg" width="4%">
+            <img src="imagenes/facebook.jpg" width="4%">
+            <img src="imagenes/snapchat.jpg" width="4%">
+        </section>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
